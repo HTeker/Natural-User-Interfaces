@@ -5,7 +5,7 @@
         <link rel="stylesheet" type="text/css" href="styles/simple-grid.min.css" />
         <link rel="stylesheet" type="text/css" href="styles/index.css" />
 
-        <script type="text/javascript" src="data/nui.js"></script>
+        <script type="text/javascript" src="data/pages.js"></script>
         <script type="text/javascript" src="script/PageRenderer.js"></script>
 
     </head>
@@ -13,37 +13,55 @@
 
         <div class="container">
 
-            <div class="row">
+            <div class="row">`
 
-                <div class="col-4">col3</div>
-
-                <div id="nui-container" class="col-8">
-
-                    <h1>Touchscreen</h1>
-
-                    <img src="https://www.engineersgarage.com/sites/default/files/wysiwyg_imageupload/1/Pictorial-Representation-of-Touch-Screen-Technology.jpg" />
-                    
-                    <h2>Deelvragen</h2>
-                    <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
-
-                    <h2>Wat is het?</h2>
-                    <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
-
-                    <h2>Toepassingen</h2>
-                    <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
-
-                    <h2>Positieve punten</h2>
-                    <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
-
-                    <h2>Hoe geschikt is het?</h2>
-                    <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
-
-                    <h2>Wat zijn de voordelen en nadelen?</h2>
-                    <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
-
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wKuqNuzM1oM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="col-3">
+                
+                    <span>NUI</span>
 
                 </div>
+
+                <div class="col-2">
+                    
+                    <a onClick="renderPage('goal')" href="#">Hoofdvraag</a>
+
+                </div>
+
+                <div class="col-2">
+                    
+                    <a onClick="renderPage('conclusion')" href="#">Eindconclusie</a>
+
+                </div>
+
+                <div class="col-2">
+                    
+                    <a onClick="renderPage('discussion')" href="#">Aanbevelingen/discussie</a>
+
+                </div>
+
+                <div class="col-2">
+                    
+                    <a onClick="renderPage('sources')" href="#">Bronnenlijst</a>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-4">
+
+                    <ul>
+                        <li><a onClick="renderPage('brain')" href="#">Brain</a></li>
+                        <li><a onClick="renderPage('eyeTracking')" href="#">Eye-tracking</a></li>
+                        <li><a onClick="renderPage('voiceControl')" href="#">Voice control</a></li>
+                        <li><a onClick="renderPage('gestures')" href="#">Gestures</a></li>
+                        <li><a onClick="renderPage('touchscreen')" href="#">Touchscreen</a></li>
+                    </ul>
+
+                </div>
+
+                <div id="site-container" class="col-8"></div>
 
             </div>
 
@@ -51,9 +69,11 @@
 
         <script>
 
-            console.log(document.getElementById('nui-container'));
+            function renderPage(id) {
 
-            //document.getElementById('nui-container').innerHTML = PageRenderer.render(nui.touchscreen);
+                document.getElementById('site-container').innerHTML = PageRenderer.render(pages[id]);
+
+            }
             
         </script>
 
