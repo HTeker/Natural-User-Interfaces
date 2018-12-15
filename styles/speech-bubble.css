@@ -1,0 +1,106 @@
+@import "bourbon";
+
+/* modified from 
+   https://www.ilikepixels.co.uk/drop/bubbler/ 
+*/ 
+
+@include keyframes(scaleIn) {
+  from {
+    @include transform(scale(0));
+  }
+  to {
+    @include transform(scale(1));
+  }
+}
+
+.bubble-wrap.fade-in {
+  @include animation(scaleIn 0.4s ease-in-out);
+  @include transform-origin(0 50% 0);
+}
+
+.bubble-wrap {
+  position: absolute;
+  margin: 20px auto;
+
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease-in;
+  -moz-transition: opacity 0.5s ease-in;
+  -ms-transition: opacity 0.5s ease-in;
+  -o-transition: opacity 0.5s ease-in;
+  transition: opacity 0.5s ease-in;
+}
+
+.bubble-wrap.fadein {
+  opacity: 1;
+}
+
+.bubble-wrap.fadeout {
+  opacity: 0;
+}
+
+.bubble {
+  position: relative;
+  padding: 20px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  border: #7F7F7F solid 1px;
+  font-size: 1em;
+  line-height: 1.25em;
+}
+
+.bubble.left:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 16px 16px 16px 0;
+  border-color: transparent #FFFFFF;
+  display: block;
+  width: 0;
+  z-index: 1;
+  left: -15px;
+  top: 50%;
+  margin-top: -16px
+  
+}
+
+.bubble.left:before {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 16px 16px 16px 0;
+  border-color: transparent #7F7F7F;
+  display: block;
+  width: 0;
+  z-index: 0;
+  left: -16px;
+  top: 50%;
+  margin-top: -16px;
+}
+
+.bubble.right:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 16px 0 16px 16px;
+  border-color: transparent #FFFFFF;
+  display: block;
+  width: 0;
+  z-index: 1;
+  right: -16px;
+  top: 50%;
+  margin-top: -16px;
+}
+
+.bubble.right:before {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 16px 0 16px 16px;
+  border-color: transparent #7F7F7F;
+  display: block;
+  width: 0;
+  z-index: 0;
+  right: -16px;
+  top: 50%;
+  margin-top: -16px;
+}

@@ -4,6 +4,7 @@
 
         <link rel="stylesheet" type="text/css" href="styles/simple-grid.min.css" />
         <link rel="stylesheet" type="text/css" href="styles/accordion.css" />
+        <link rel="stylesheet" type="text/css" href="styles/speech-bubble.css" />
         <link rel="stylesheet" type="text/css" href="styles/index.css" />
 
         <script type="text/javascript" src="data/pages.js"></script>
@@ -14,34 +15,22 @@
 
         <div class="container">
 
-            <div class="row">`
+            <div id="navigation-bar" class="row">`
 
                 <div class="col-3">
                 
-                    <span>NUI</span>
+                    <span>Natural User Interfaces</span>
 
                 </div>
 
-                <div class="col-2">
+                <div class="col-8">
                     
                     <a onClick="renderPage('goal')" href="#">Hoofdvraag</a>
 
-                </div>
-
-                <div class="col-2">
-                    
                     <a onClick="renderPage('conclusion')" href="#">Eindconclusie</a>
 
-                </div>
-
-                <div class="col-2">
-                    
                     <a onClick="renderPage('discussion')" href="#">Aanbevelingen/discussie</a>
 
-                </div>
-
-                <div class="col-2">
-                    
                     <a onClick="renderPage('sources')" href="#">Bronnenlijst</a>
 
                 </div>
@@ -54,13 +43,28 @@
 
                 <div class="col-4">
 
-                    <ul>
-                        <li><a onClick="renderPage('brain')" href="#">Brain</a></li>
-                        <li><a onClick="renderPage('eyeTracking')" href="#">Eye-tracking</a></li>
-                        <li><a onClick="renderPage('voiceControl')" href="#">Voice control</a></li>
-                        <li><a onClick="renderPage('gestures')" href="#">Gestures</a></li>
-                        <li><a onClick="renderPage('touchscreen')" href="#">Touchscreen</a></li>
-                    </ul>
+                    <div id="bubble-1" class="bubble-wrap" style="left: 0px; top: 95px;">
+                        <div class="bubble right">
+                            Hey, ik ben NUI!
+                        </div>
+                    </div>
+
+                    <div id="bubble-2" class="bubble-wrap" style="left: -100px; top: 85px;">
+                        <div class="bubble right">
+                            Klik op mijn <b>brein</b>, <b>ogen</b>, <b>mond</b>,<br/><b>rechterhand</b> óf <b>linkerhand</b>.
+                        </div>
+                    </div>
+
+                    <img src="img/nui-character.png" alt="Natural User Interfaces" usemap="#nui">
+
+                    <map name="nui">
+                        <area shape="rect" coords="120,16,195,73" alt="brain" href="#">
+                        <area shape="rect" coords="126,91,140,112" alt="eyeTracking" href="#">
+                        <area shape="rect" coords="173,91,188,112" alt="eyeTracking" href="#">
+                        <area shape="rect" coords="129,134,185,150" alt="voiceControl" href="#">
+                        <area shape="rect" coords="261,104,315,162" alt="gestures" href="#">
+                        <area shape="rect" coords="60,345,95,403" alt="touchscreen" href="#">
+                    </map>
 
                 </div>
 
@@ -74,10 +78,68 @@
 
             renderPage('touchscreen');
 
+            var areas = document.getElementsByTagName('area');
+
+            for (i = 0; i < areas.length; i++) {
+
+                areas[i].addEventListener('click', function(e) {
+
+                    e.preventDefault();
+
+                    renderPage(e.srcElement.alt);
+
+                });
+
+            }
+
+            renderSpeechBubbles();
+
+            /* FUNCTIONS */
+
             function renderPage(id) {
 
                 document.getElementById('site-container').innerHTML = PageRenderer.render(pages[id]);
 
+            }
+
+            function renderSpeechBubbles() {
+
+                setTimeout(
+                function() {
+
+                    let bubble = document.getElementById('bubble-1');
+
+                    bubble.className += ' fadein';
+
+                    setTimeout(
+                    function() {
+
+                        let bubble = document.getElementById('bubble-1');
+
+                        bubble.className += ' fadeout';
+
+                        setTimeout(
+                        function() {
+
+                            let bubble = document.getElementById('bubble-2');
+
+                            bubble.className += ' fadein';
+
+                            setTimeout(
+                            function() {
+
+                                let bubble = document.getElementById('bubble-2');
+
+                                bubble.className += ' fadeout';
+
+                            }, 5000);
+
+                        }, 500);
+
+                    }, 3000);
+
+                }, 1000);
+                
             }
             
         </script>

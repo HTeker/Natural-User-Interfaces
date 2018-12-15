@@ -1,3 +1,15 @@
+body {
+    background-color: #333333;
+}
+
+p, h1, a, span {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
 div.container {
     max-width: none;
 }
@@ -18,4 +30,13 @@ div.hero-img-container {
 div.hero-img-container img {
     width: 100%;
     height: auto;
+}
+
+#navigation-bar span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#navigation-bar a {
+    padding-right: 35px;
 }
