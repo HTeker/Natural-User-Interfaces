@@ -1,4 +1,8 @@
 var pages = {
+    "summary": {
+        "title": "Samenvatting",
+        "content": []
+    },
     "goal": {
         "title": "Hoofdvraag",
         "content": [{
