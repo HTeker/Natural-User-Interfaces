@@ -476,7 +476,183 @@ var pages = {
         "heroImage": "",
         "content": [{
             "type": "paragraph",
-            "value": "Gestures"
+            "value": "In de volgende video wordt uitgelegd wat gebarenherkenning is en voor welke toepassingen het eventueel gebruikt zou kunnen worden."
+        }, {
+            "type": "video",
+            "value": "https://www.youtube.com/embed/wxZ9Uhhwj3M"
+        }, {
+            "type": "accordion",
+            "value": "1. Voor welke toepassingen wordt het gebruikt en hoe werkt het?",
+            "children": [{
+                    "type": "paragraph",
+                    "value": "Gebaren herkenning wordt in vele sectoren gebruikt. Denk daarbij aan gebruik voor gamen, medische toepassingen en bijvoorbeeld het herkennen van gebarentaal zoals onderzocht door Xiujuan Chai (2013)."
+            }, {
+                    "type": "paragraph",
+                    "value": "Microsoft bracht in 2010 de eerste generatie van de Kinect uit. Over de jaren heen zijn er verschillende versies verschenen van de Kinect. De Kinect is van oorsprong bedacht voor de Xbox om mee te gamen, later werd het ook ondersteund om er via Windows mee te programmeren. Hierdoor konden mensen er ook mee aan de slag om zelf applicaties te maken met gebarenherkenning."
+            }, {
+                    "type": "paragraph",
+                    "value": "In de volgende video wordt uitgelegd hoe de Microsoft Kinect werkt en hoe de diepte sensoren van de Kinect werken."
+            }, {
+                "type": "video",
+                "value": "https://www.youtube.com/embed/uq9SEJxZiUg"
+            }, {
+                    "type": "paragraph",
+                    "value": "In 2012 bracht het bedrijf Leap Motion een product uit dat qua hardware ongeveer hetzelfde werkt als de Kinect, alleen was dit product gefocused op de bewegingen van de handen in plaats van de bewegingen van het hele lichaam. Hierdoor konden handgebaren veel beter worden geïnterpreteerd dan de Kinect dat kan. "
+            }, {
+                    "type": "paragraph",
+                    "value": "De hardware controller van Leap Motion maakt een 3 dimensionale ruimte van ongeveer 30cmx30cmx30cm. De Hardware maakt opnames van dat gebied door middel van camera’s en infrarood om vervolgens door middel van software je vingers en handen te registreren in de computer. Dat wordt mooi geïllustreerd met de volgende afbeelding afkomstig van"
+            }, {
+                "type": "img",
+                "src": "img/gestures-1.png",
+                "caption": "Figuur 1: The interactive 3D space. Geraadpleegd van leapmotion.com (2018)."
+            }, {
+                    "type": "paragraph",
+                    "value": "Aan aantal jaren later besloot Google ook de markt van gebaren herkenning te betreden, maar wel met een andere hardware technologie dan de rest. Project Soli maakt gebruik van radar technologie en kan daardoor in het detail bewegingen van vingers volgen, zoals te zien in de volgende video die uitlegt hoe deze technologie werkt."
+            }, {
+                "type": "video",
+                "value": "https://www.youtube.com/embed/SVwV4uqETbI"
+            }, {
+                    "type": "paragraph",
+                    "value": "De hiervoor genoemde bedrijven zijn de meest bekende bedrijven met technologieën die op dit moment bezig zijn met gebarenherkenning. Er zijn ook zeker andere bedrijven die hiermee bezig zijn, maar die worden in dit onderzoek niet behandelt. "
+            }, {
+                    "type": "paragraph",
+                    "value": "Ook worden onderzoeken gedaan om met behulp van gebarenherkenning bepaalde problemen op te lossen of bepaalde processen beter te maken. "
+            }, {
+                    "type": "paragraph",
+                    "value": "Zo hebben Wen-Jeng Li, Chia-Yeh Hsieh, Li-Fong Lin en Woei-Chyn Chu (2017) onderzoek gedaan naar bevorderen van het revalidatieproces van mensen nadat ze een hartaanval hebben gehad. Na een hartaanval moet voor een onbepaalde tijd worden gemonitord hoe de revalidatie gaat. Gebarenherkenning kan hier hulp bij bieden aangezien er niet altijd genoeg mankracht is om dit door professionals te laten doen."
+            }, {
+                    "type": "paragraph",
+                    "value": "Een ander voorbeeld is het onderzoek van Nuno Mendes, João Ferrer, João Vitorino, Mohammad Safeea en Pedro Neto (2017). In dit onderzoek is gekeken naar het aansturen van robots door middel van gebaren. Op die manier kan de mens samen met de robot werken en zou de robot bijvoorbeeld lichamelijk zware taken over kunnen nemen."
+            }]
+        }, {
+            "type": "accordion",
+            "value": "2. Wat is de huidige stand van de technologie?",
+            "children": [{
+                    "type": "paragraph",
+                    "value": "Zoals beschreven door P. Premaratne (2014) is het allemaal begonnen met een handschoen die vast zat aan een computer. Door middel van sensoren in en op de handschoen wist de computer welke bewegingen de hand maakte."
+            }, {
+                    "type": "paragraph",
+                    "value": "Vanuit een usability oogpunt is dat niet de beste oplossing. Tegenwoordig kan een hoop worden bereikt met camera’s, sensoren, infrarood en radiogolven."
+            }, {
+                    "type": "paragraph",
+                    "value": "De meest gebruikte toepassing van gebarenherkenning op dit moment is het gebruik van meerdere camera’s en infrarood sensoren. Door die middelen te combineren en door goede software kan er een goed beeld worden gecreëerd van de persoon voor de camera en kan er goed worden geregistreerd wat de gebruiker voor bewegingen maakt."
+            }, {
+                "type": "img",
+                "src": "img/gestures-2.png",
+                "caption": "Figuur 2: Kinect System Overview (NI, 2011). Geraadpleegd van http://www.depthbiomechanics.co.uk/?p=100"
+            }, {
+                    "type": "paragraph",
+                    "value": "Door middel van “serious games” kan gebarenherkenning ingezet worden bij revalidaties of bij het maken van accurate diagnoses omtrent ADHD, zoals onderzocht door David Delgado-Gomez, Inmaculada Peñuelas-Calvo et al (2017). "
+            }, {
+                    "type": "paragraph",
+                    "value": "Gebaren omzetten in taal of tekst, zoals onderzocht door Xiujuan Chai (2013) is een goede ontwikkeling. Op die manier zijn dove mensen minder afgezonderd van de niet-dove mensen omdat de “taalbarrière” dan minder groot is."
+            }, {
+                    "type": "paragraph",
+                    "value": "Volgens een onderzoek van Farhadi-Niaki, F., Etemad, S. A., & Arya, A. (2013) naar de usability van gebarenherkenning voor normaal desktop gebruik komt naar voren dat handgebaren natuurlijk aanvoelen. Tegelijkertijd komt naar voren dat de computer aansturen met lichaam- of armbewegingen minder natuurlijk aanvoelen en ook vermoeiend werken. "
+            }, {
+                    "type": "paragraph",
+                    "value": "Er moet dus in de gaten worden gehouden dat gebarenherkenning wordt gebruikt om het besturen van apparaten eenvoudiger en natuurlijker te maken. "
+            }]
+        }, {
+            "type": "accordion",
+            "value": "3. Hoe bruikbaar is de interface?",
+            "children": [{
+                    "type": "paragraph",
+                    "value": "Er is onderzoek gedaan door Nuno Mendes, João Ferrer, João Vitorino, Mohammad Safeea en Pedro Neto (2017) naar het aansturen van robots met gebaren, zodat robots lichamelijk zwaar werk over kunnen nemen. Daarnaast kan gebarenherkenning ook ingezet worden om gebarentaal om te zetten in tekst of spraak, zoals bewezen door Xiujuan Chai in zijn onderzoek “Sign Language Recognition and Translation with Kinect“. Hierdoor wordt communicatie tussen doven en niet-doven een stuk eenvoudiger."
+            }, {
+                    "type": "paragraph",
+                    "value": "Ook wordt er onderzoek gedaan naar eventuele medische toepassingen. In het onderzoek van David Delgado-Gomez, Inmaculada Peñuelas-Calvo et al (2017) is er onderzocht of het mogelijk is om door middel van gebarenherkenning en goede software, de symptomen van ADHD te constateren. Uit dit onderzoek komt naar voren dat dit zeker mogelijk moet zijn. Maar daarvoor is wel meer onderzoek nodig."
+            }, {
+                    "type": "paragraph",
+                    "value": "Dus naast het feit dat gebarenherkenning veel wordt gebruikt voor gaming of voor persoonlijk gebruik zoals de Kinect en de Leap Motion, worden deze technologieën ook ingezet om oplossingen te vinden in de medische wereld, wat van hoge waarde kan zijn indien het goed werkt."
+            }, {
+                    "type": "paragraph",
+                    "value": "Afhankelijk van het doel van de hardware en software is te bepalen hoe goed het werkt. "
+            }, {
+                    "type": "paragraph",
+                    "value": "Zo constateren Weichert, F., Bachmann, D., Rudak, B., & Fisseler, D. in hun onderzoek over de nauwkeurigheid van de Leap Motion sensor (2013) dat het afhankelijk van de hardware en software is hoe nauwkeurig de gebarenherkenning is, en dus ook waar wat voor gebruikt kan worden."
+            }, {
+                    "type": "paragraph",
+                    "value": "De Kinect van Microsoft bijvoorbeeld, is gemaakt om het hele lichaam te herkennen en aan de hand van gebaren van het hele lichaam worden acties uitgevoerd. Maar aangezien zij het hele lichaam moet processen met de software is het voor de Kinect moeilijker om kleine details van de handen te volgen. "
+            }, {
+                    "type": "paragraph",
+                    "value": "Mendes, Ferrer, Vitorino, Safeea & Neto (2017) hebben onderzoek gedaan naar de samenwerking tussen mens en robot.In dit onderzoek is de hardware en software afgesteld op het doel van het onderzoek en waren er 22 gebaren die de robot kon herkennen. De gebruiker die het systeem traint behaalde 96% en 94% voor het herkennen van statische en dynamische gebaren. Een andere gebruiker behaalde 93% herkenning voor zowel statische als dynamische gebaren."
+            }, {
+                    "type": "paragraph",
+                    "value": "In dat onderzoek wordt ook geconcludeerd dat het dus redelijk goed werkt. Maar er zit toch een verschil in het herkennen van gebaren tussen de gebruiker die het systeem traint versus andere gebruikers. Dit heeft waarschijnlijk te maken met het feit dat iedereen gebaren net wat anders uitvoert. In feite is dit op te lossen door machine learning toe te passen. Zolang de software continu bezig blijft om gebaren te herkennen en dat herkennen te verfijnen, moet dat naar verloop steeds beter gaan."
+            }, {
+                    "type": "paragraph",
+                    "value": "Ook in een onderzoek van Li, W. J., Hsieh, C. Y., Lin, L. F., & Chu, W. C. (2017) naar het rehabiliteren na een hartaanval, worden gebaren herkend in 97% van de gevallen."
+            }]
+        }, {
+            "type": "accordion",
+            "value": "4. Wat zijn de gebruikerservaringen",
+            "children": [{
+                    "type": "paragraph",
+                    "value": "Er zijn verschillende onderzoeken die de usability van gebarenherkenning hebben onderzocht. "
+            }, {
+                    "type": "paragraph",
+                    "value": "Zo is er een onderzoek van Georgiadis, A., & Yousefi, S. (2017) die, gebruik makend van de RGB-camera van een telefoon, een virtuele wereld creëerde waarin er met handgebaren acties konden worden uitgevoerd. Gebruikers voelde zich meer onderdeel van de virtuele wereld en ervaarde de manier van input prettig. Tegelijkertijd was het input leveren door middel van gebruik niet altijd makkelijker dan input via een knop."
+            }, {
+                    "type": "paragraph",
+                    "value": "Kijkend naar een onderzoek naar de usability van de Leap Motion, uitgevoerd door Falcao, C., Lemos, A. C., & Soares, M, (2015) komt naar voren dat gebarenherkenning soms toch wat te wensen overlaat. Het onderzoek werd gedaan door gebruikers te laten werken in Adobe Photoshop. Er moet dus bij worden vermeld dat de interface in Adobe Photoshop niet speciaal gemaakt is voor gebarenherkenning. Hierdoor was het voor gebruikers soms lastig om bepaalde tools en knoppen te selecteren."
+            }, {
+                    "type": "paragraph",
+                    "value": "In een onderzoek van Bracegirdle, A. (2014) werd er wel speciaal een interface gemaakt voor de gebruiker. Er zijn verschillende resultaten uit het onderzoek te halen. Allereerst is de Leap Motion controller niet foutloos. Sommige gebaren werkten niet naar behoren. Denk daarbij aan een object laten bewegen met één uitgestrekte vinger, om het object te laten versnellen bij twee uitgestrekte vingers. De controller had moeite om elke keer goed het aantal vingers te herkennen. "
+            }, {
+                    "type": "paragraph",
+                    "value": "Wel ervaarde gebruikers het als prettig om met behulp van een hand bepaalde dingen uit te voeren, zoals het hierboven genoemde. Als gebruikers twee handen moeten gebruiken, wordt het meer als moeilijk en onhandig ervaren. "
+            }, {
+                    "type": "paragraph",
+                    "value": "In het door de onderzoeker gemaakte VR-wereld was er geen goed gebaar om het menu te openen, dus werd er gekozen voor de spatiebalk. De gebruikers ervaarde dit als onprettig."
+            }]
+        }, {
+            "type": "accordion",
+            "value": "5. Deelconclusie",
+            "children": [{
+                    "type": "paragraph",
+                    "value": "Gebarenherkenning werkt goed, maar niet perfect. Er zijn vele verschillende manieren waarop mensen kunnen bewegen wat het moeilijk maakt om gebaren consequent te herkennen, zeker als de gebaren door verschillende mensen worden uitgevoerd. "
+            }, {
+                    "type": "paragraph",
+                    "value": "Naast leuke toepassingen voor gebarenherkenning zoals games, kan gebarenherkenning ook worden toegepast in de medische sector of het kan worden ingezet om de mens te ondersteunen bij bepaalde handelingen zoals het aansturen van robots om lichamelijk zwaar werk over te nemen van de mens."
+            }, {
+                    "type": "paragraph",
+                    "value": "Indien de interfaces speciaal gemaakt zijn voor gebarenherkenning wordt het in de meeste gevallen ervaren als prettig. Zomaar een keyboard en muis vervangen met handgebaren, dat gaat niet lukken vanuit een usability perspectief, simpelweg omdat de huidige interfaces niet geschikt zijn voor handgebaren."
+            }, {
+                    "type": "paragraph",
+                    "value": "Gebarenherkenning moet niet worden gebruikt en ontwikkeld omdat het kan. Het moet worden gebruikt in situaties waar het iets oplevert. Een computer besturen met benen wordt niet als prettig ervaren. "
+            }, {
+                    "type": "paragraph",
+                    "value": "Er moet dus goed over nagedacht worden waar gebarenherkenning voor gebruikt kan worden. In sommige situaties werkt het niet, maar een vele andere situaties kan het wel degelijk worden toegepast."
+            }]
+        }, {
+            "type": "accordion",
+            "value": "8. Aanbevelingen",
+            "children": [{
+                    "type": "paragraph",
+                    "value": "Als er goede toepassingen kunnen worden bedacht die goed passen bij het herkennen van gebaren, dan is er zeker een toekomst voor. De interfaces en software moeten wel speciaal ontwikkeld worden voor gebaren. Daarnaast moet niet uit het oog verloren worden dat het een natural user interface betreft. Het moet dus natuurlijk aan blijven voelen."
+            }]
+        }, {
+            "type": "accordion",
+            "value": "9. Bronnen",
+            "children": [{
+                "type": "ul",
+                "content": [
+                    `Mendes, N., Ferrer, J., Vitorino, J., Safeea, M., & Neto, P. (2017). Human behavior and hand gesture classification for smart human-robot interaction. Procedia Manufacturing, 11, 91-98.`,
+                    `Delgado-Gomez, D., Peñuelas-Calvo, I., Masó-Besga, A. E., Vallejo-Oñate, S., Tello, I. B., Duarte, E. A., ... & Baca-García, E. (2017). Microsoft Kinect-based continuous performance test: an objective attention deficit hyperactivity disorder assessment. Journal of medical Internet research, 19(3).`,
+                    `Chai, Xiujuan, et al. "Sign language recognition and translation with kinect." IEEE Conf. on AFGR. Vol. 655. 2013.`,
+                    `Myers, B. A. (1998). A brief history of human-computer interaction technology. interactions, 5(2), 44-54.`,
+                    `Liu, Z., Chai, X., Liu, Z., & Chen, X. (2017, October). Continuous gesture recognition with hand-oriented spatiotemporal feature. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 3056-3064).`,
+                    `Li, W. J., Hsieh, C. Y., Lin, L. F., & Chu, W. C. (2017, May). Hand gesture recognition for post-stroke rehabilitation using leap motion. In Applied System Innovation (ICASI), 2017 International Conference on (pp. 386-388). IEEE.`,
+                    `Farhadi-Niaki, F., Etemad, S. A., & Arya, A. (2013, July). Design and usability analysis of gesture-based control for common desktop tasks. In International Conference on Human-Computer Interaction (pp. 215-224). Springer, Berlin, Heidelberg.`,
+                    `Premaratne, P. (2014). Historical development of hand gesture recognition. In human computer interaction using hand gestures(pp. 5-29). Springer, Singapore.`,
+                    `Weichert, F., Bachmann, D., Rudak, B., & Fisseler, D. (2013). Analysis of the accuracy and robustness of the leap motion controller. Sensors, 13(5), 6380-6393.`,
+                    `Falcao, C., Lemos, A. C., & Soares, M. (2015). Evaluation of natural user interface: A usability study based on the leap motion device. Procedia Manufacturing, 3, 5490-5495.`,
+                    `Georgiadis, A., & Yousefi, S. (2017, November). Analysis of the user experience in a 3D gesture-based supported mobile VR game. In Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology (p. 47). ACM.`,
+                    `Bracegirdle, A. (2014). Investigating the usability of the leap motion controller: Gesture-based interaction with a 3d virtual environment.`,
+                    `Liu, X., & Thomas, G. W. (2017, May). Gesture Interfaces: Minor Change in Effort, Major Impact on Appeal. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems(pp. 4278-4283). ACM.`
+                ]
+            }]
         }]
     },
     "touchscreen": {
