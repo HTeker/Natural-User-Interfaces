@@ -59,6 +59,32 @@ PageRenderer = {
 
                     break;
 
+                case 'ul':
+
+                    html += `<ul>`;
+
+                    item.content.forEach(c => html += `<li>${c}</li>`);
+
+                    html += `</ul>`;
+
+                    break;
+
+                case 'ol':
+
+                    html += `<ol>`;
+
+                    item.content.forEach(c => html += `<li>${c}</li>`);
+
+                    html += `</ol>`;
+
+                    break;
+
+                case 'img':
+
+                    html += `<div class="img-container" style="width:image width px; font-size:80%; text-align:center;"><img src="${item.src}" width="width" height="height" style="padding-bottom:0.5em;" />${item.caption}</div>`;
+
+                    break;
+
                 case 'html':
 
                     html += item.value;

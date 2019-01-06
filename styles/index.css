@@ -2,7 +2,7 @@ body {
     background-color: #333333;
 }
 
-p, h1, a, span, li {
+p, h1, h2, h3, h4, h5, h6, a, span, li {
     color: white;
 }
 
@@ -39,4 +39,15 @@ div.hero-img-container img {
 
 #navigation-bar a {
     padding-right: 35px;
+}
+
+.img-container {
+
+    color: white;
+    
+
+}
+
+.img-container img {
+    width: 100%;
 }
