@@ -62,8 +62,372 @@ var pages = {
         "title": "Brain",
         "heroImage": "",
         "content": [{
-            "type": "paragraph",
-            "value": "brain"
+                "type": "paragraph",
+                "value": "Brain-computer interface (BCI) is een opkomende technologie, waarbij het menselijk brein in directe communicatie staat met zijn omgeving. Hersengolven dienen als input voor het aansturen van externe apparaten (Wolpaw, 2000). De hersengolven worden gemeten met een electroencephalogram, oftewel EEG. Een EEG is een elektrofysiologische methode, waarbij hersenactiviteit elektrisch wordt gemeten. Het is meestal niet-invasief, waarbij de elektroden langs de hoofdhuid zijn geplaatst, hoewel soms invasieve elektroden worden gebruikt, zoals bij elektrocorticografie."
+        }, {
+            "type": "img",
+            "src": "img/brain-1.png",
+            "caption": "Figuur 1 Een voorbeeld van EEG"
+        }, {
+            "type": "img",
+            "src": "img/brain-2.png",
+            "caption": "Figuur 2 De plaatsingen van ECG-elektroden"
+        }, {
+                "type": "paragraph",
+                "value": "Een EEG apparaat is geen BCI, omdat het slechts de hersensignalen opvangt. Het resulteert niet in een output wat een actie is van de gebruiker op de omgeving. Het is een misconceptie dat BCI gedachten kan lezen. Brain-computer interfaces lezen niet de gedachten op een onvrijwillige manier, maar geven de gebruiker de mogelijkheid om te reageren op zijn omgeving door gebruik te maken van hersensignalen anders dan door middel van de spieren. "
+        }, {
+                "type": "paragraph",
+                "value": "Meestal is de gebruiker, na een periode van training, in staat zijn intenties met hersensignalen over te brengen tot opdrachten op een extern apparaat. "
+        }, {
+                "type": "paragraph",
+                "value": "Video 5.1 Bij Cybathlon worden spellen gespeeld middels hersenbesturing. In deze video wordt door gebruikers uitgelegd hoe BCI werkt en wat hun ervaring daarbij is."
+        }, {
+            "type": "video",
+            "value": "https://www.youtube.com/embed/5jGcNbQhbg8"
+        }, {
+            "type": "img",
+            "src": "img/brain-3.png",
+            "caption": "Figuur 3 Plaatje over BCI en output op een extern apparaat"
+        }, {
+            "type": "accordion",
+            "value": "1. Voor welke toepassingen wordt het gebruikt?",
+            "children": [{
+                    "type": "paragraph",
+                    "value": "Op medisch gebied wordt BCI toegepast bij diverse aandoeningen. Een voorbeeld hiervan is revalidatie na een beroerte door middel van motor imaginary (MI), het mentaal herhalen van fysieke bewegingen zoals sporters hun specifieke slag mentaal beoefenen. Ondanks dat het brein door zuurstoftekort is afgestorven is er wel activatie te zien met MI. De gedachte voor het bewegen van een arm wordt gedetecteerd als een hersensignaal. Dit signaal wordt vervolgens gebruikt om een kunstmatige arm te bewegen door middel van een elektrisch signaal. Deze cognitieve training maakt het mogelijk om een ledemaat aan te sturen via een alternatieve zenuwbaan van hersenen naar ledemaat (Ang & Guan, 2013). Na een beroerte kunnen spraak en/of ledematen aangedaan zijn. BCI geeft de mogelijkheid om een computer cursor, rolstoel of prothese te bewegen, of woorden te genereren op een spraakcomputer. Zo kan BCI een oplossing bieden voor meerdere aandoeningen, zoals bij ruggenmergletsel, amyotrofische laterale sclerose, cerebrale palsy en locked-in-syndroom. "
+            }, {
+                    "type": "paragraph",
+                    "value": "Hieronder enkele video’s van youtube waar BCI voor wordt gebruikt:"
+            }, {
+                    "type": "paragraph",
+                    "value": "Video 5.2 GTEC medical engineering presenteert een prothese die wordt aangestuurd middels BCI (2018):"
+            }, {
+                "type": "video",
+                "value": "https://www.youtube.com/embed/KEk3m4FwVt8"
+            }, {
+                    "type": "paragraph",
+                    "value": "Video 5.3 In deze video laat de onderzoeker zien dat gevoel doorgegeven kan worden van een robotarm naar de hersenen: Intracortical microstimulation of human somatosensory cortex (2013)"
+            }, {
+                "type": "video",
+                "value": "https://www.youtube.com/embed/QuRcTIP2KYQ"
+            }, {
+                    "type": "paragraph",
+                    "value": "Video 5.4 Onderzoekers tonen dat een persoon een robotarm in beweging kan zetten doordat een bewegende vinger een signaal doorgeeft aan de hersenen en via deze weg de robotarm wordt aangestuurd. Mind-Controlled Prosthetic Arm Moves Individual ‘Fingers’ (2016)"
+            }, {
+                "type": "video",
+                "value": "https://www.youtube.com/embed/e2Abr6hpezs"
+            }, {
+                    "type": "paragraph",
+                    "value": "Video 5.5 Een indrukwekkend verhaal van een man, die na een tragisch bootongeluk, zijn handen niet kan bewegen. Een implantaat verbindt de hersenensignalen via elektroden aan zijn arm."
+            }, {
+                "type": "video",
+                "value": "https://www.youtube.com/embed/he9rHbH6Kvw"
+            }, {
+                    "type": "paragraph",
+                    "value": "Hierdoor kan hij zijn vingers weer bewegen. An Implanted BCI for Real-Time Cortical Control of Functional Wrist and Finger Movements in a Human with Quadriplegia (2016)"
+            }, {
+                    "type": "paragraph",
+                    "value": "De US Defense Advanced Research Projects Agency (DARPA) financiert sinds het begin van de jaren zeventig verschillende BCI-projecten en onderzoeken. Voorbeelden hiervan zijn onder andere het, middels hersensignalen, realiseren van communicatie tussen twee personen (Miranda, 2015 & Tressoldi, 2014) en het besturen van drones. Kim, Kim en Jo (2014) hebben aangetoond dat een drone kan worden aangestuurd middels eye tracking en EEG."
+            }, {
+                    "type": "paragraph",
+                    "value": "BCI wordt ook gebruikt in de entertainmentindustrie, zoals computerspellen."
+            }, {
+                    "type": "paragraph",
+                    "value": "Video 5.6 World of Warcraft, een online computerspel, met BCI."
+            }, {
+                "type": "video",
+                "value": "https://www.youtube.com/embed/jXpjRwPQC5Q"
+            }, {
+                    "type": "paragraph",
+                    "value": "BCI kan als input dienen voor de volgende acties van de gebruiker: "
+            }, {
+                "type": "ul",
+                "content": [
+                    `Spelling: het typen van woorden. `,
+                    `Bewegings-controle: het instrueren van bewegingen.`,
+                    `Selecteren: het selecteren van pictogrammen en knoppen.`,
+                    `Brain painting: het gebruiken van een tekenprogramma.`,
+                    `Mentale taak: het uitoefenen van een denkactiviteit, zoals een verbeelding of een berekening.`,
+                    `Cognitieve revalidatie: het versterken van de intellectuele capaciteit`
+                ]
+            }, {
+                "type": "img",
+                "src": "img/brain-4.png"
+            }]
+        }, {
+            "type": "accordion",
+            "value": "2. Hoe werkt het?",
+            "children": [{
+                    "type": "paragraph",
+                    "value": "Electroencephalographic (EEG) signalen worden verzameld via de schedel. Het zijn fluctuerende elektrische potentialen die de onderliggende hersenactiviteiten weergeven, voornamelijk van de cerebrale cortex die zich net onder de schedel bevindt. De signalen zijn van een lage frequentie rond de alpha golven (8–13 Hz). Deze alpha golven worden omgezet naar invoersignalen voor een computer."
+            }, {
+                "type": "img",
+                "src": "img/brain-5.png",
+                "caption": "Figuur 5 Een doorsnede van de hersenen waarin de cerebrale cortex zich bevindt"
+            }, {
+                    "type": "paragraph",
+                    "value": "De signalen kunnen op twee manieren worden opgevangen: invasief en aan het oppervlak van de schedel. Invasieve apparaten produceren de hoogste kwaliteit aan signalen voor BCI, maar zijn gevoelig voor littekenweefsel. Hierdoor kan het signaal zwakker of zelfs opgeheven worden."
+            }, {
+                    "type": "paragraph",
+                    "value": "Een nadeel is dat EEG-signalen gevoelig zijn voor geluiden en bewegingen. De bewegingen kunnen uitgefilterd worden door middel van de canonical-correlation analysis algoritme. "
+            }, {
+                    "type": "paragraph",
+                    "value": "Er zijn andere type hersensignalen om te gebruiken als signaal: P300, SSVEPs, fMRI en fNIR."
+            }, {
+                    "type": "paragraph",
+                    "value": "De P300-golf is een Event Related Potential (ERP) component dat wordt opgeroepen in het besluitvormingsproces. Op een EEG wordt een deflectie in voltage gezien met een vertraging van 250 tot 500 ms. Patronen van P300-golven worden onvrijwillig gegenereerd wanneer men iets ziet dat hij herkent. Hiermee kunnen BCI gedachten worden gedecodeerd zonder dat de patiënten vooraf getraind worden. De eerste toepassing van P300 was de P300-matrix. Binnen dit systeem kiest een gebruiker een letter uit een raster van 6 bij 6 letters en cijfers. De rijen en kolommen van het raster flitsen opeenvolgend en elke keer dat de geselecteerde \"keuzeletter\" werd verlicht, werd de P300 van de gebruiker (mogelijk) geactiveerd. Een gebruiker kon met gemiddeld drie tot acht karakters per minuut communiceren. Door middel van het minimaliseren van de selectiematrix en voorspellen van het volgende woord suggereren Casagrande et al. (2018) een toename van de karakters per minute en afname van de foutmarge. Deze studie was uitgevoerd op gezonde mensen en was afhankelijk van de opgeslagen woorden van de gebruiker."
+            }, {
+                    "type": "paragraph",
+                    "value": "Steady state visually evoked potentials (SSVEPs) zijn signalen die gegenereerd worden op een flikkerend beeld. Deze zijn het beste op te vangen in het pariëtale en occipitale deel van het brein. Op het moment dat het netvlies een visuele stimulus van 3,5 Hz tot 75 Hz opvangt (Beverina, 2003), genereert het brein een elektrische activiteit met dezelfde frequenties van de visuele stimulus. Het voordeel van SSVEPs is dat het geluid minder storend is."
+            }, {
+                "type": "img",
+                "src": "img/brain-6.png",
+                "caption": "Figuur 6 De hersenen met verschillende hersenkwabben (in het engels: “Lobe”)"
+            }, {
+                    "type": "paragraph",
+                    "value": "Magnetoencephalography (MEG) meet hoofdzakelijk de magnetische velden die worden gegenereerd door elektrische stromen die langs piramidale cel axonen (zenuwen in het brein) bewegen. Functionele magnetische resonantie beeldvorming (fMRI) en functionele nabij-infrarood beeldvorming (fNIR) meten de bloed-oxygenatie van een hersengebied en correleren met neurale activiteit. Lee, Ryu, Jolesz, Cho, en Yoo (2009) toonden aan dat het controleren van een robotarm alleen via de denkprocessen van de persoon mogelijk was met behulp van een real-time op fMRI gebaseerd BCI."
+            }, {
+                "type": "img",
+                "src": "img/brain-7.png",
+                "caption": "Figuur 7 Een overzicht van het proces van BCI"
+            }, {
+                    "type": "paragraph",
+                    "value": "Een BCI systeem bestaat uit drie componenten: signaal opvangen, signaalverwerking en een uitvoerapparaat."
+            }, {
+                "type": "img",
+                "src": "img/brain-8.jpg",
+                "caption": "Figuur 8 Een overzicht van het BCI systeem"
+            }, {
+                "type": "html",
+                "value": "<h4>Signaal opvangen</h4>"
+            }, {
+                    "type": "paragraph",
+                    "value": "De hersengolven worden door meerdere elektroden opgevangen. De signalen kunnen worden geamplificeerd tot niveaus die geschikt zijn voor elektronische verwerking en elektrische ruis kan worden weggefilterd. Na het amplificatie- en filterproces kunnen de signalen worden gedigitaliseerd en naar een computer worden verzonden."
+            }, {
+                "type": "img",
+                "src": "img/brain-9.png"
+            }, {
+                "type": "img",
+                "src": "img/brain-10.png",
+                "caption": "Figuur 9 en 10 Voorbeelden van BCI-headsets"
+            }, {
+                "type": "html",
+                "value": "<h4>Signaalverwerking</h4>"
+            }, {
+                    "type": "paragraph",
+                    "value": "Signaalverwerking van BCI is het proces van het analyseren van de digitale signalen om signaalkarakteristieken te onderscheiden en deze in een compacte vorm weer te geven die geschikt is voor het inputsignaal van het externe apparaat. Deze functies zijn geëxtraheerd en moeten een goede correlaties hebben met de intentie van de gebruiker."
+            }, {
+                "type": "html",
+                "value": "<h4>Uitvoerapparaat</h4>"
+            }, {
+                    "type": "paragraph",
+                    "value": "De output van de signaalverwerking moet het externe apparaat van de Brain Computer Interface (BCI) bedienen en voorzien in functies zoals cursorbesturing, letter selectie, besturen van de robotarm, enz. De werking van het apparaat geeft uiteindelijk feedback aan de gebruiker, waardoor het proces compleet is."
+            }]
+        }, {
+            "type": "accordion",
+            "value": "3. Wat is de huidige stand van de technologie?",
+            "children": [{
+                    "type": "paragraph",
+                    "value": "In 2012 onderzochten Shih, Krusienski, en Wolpaw alle klinische toepassingen van BCI en beschreven in een review de introductie van BCI in de geneeskunde. Het belangrijkste doel van BCI was om functies te vervangen of te herstellen voor mensen met een handicap door neuromusculaire aandoeningen zoals amyotrofische laterale sclerose, hersenverlamming, beroerte of ruggenmergletsel. Sindsdien is de ontwikkeling naar comfortabele en stabiele signaalverwerking van de hardware toegenomen voor verschillende gebruikerspopulaties. Op dit moment heeft de beschikbaarheid van EEG-gebaseerde Brain-Computer Interface apparaten ook het software-landschap bereikt. Veel fabrikanten hebben hun eigen mobiele apparaat op de markt gebracht, waardoor het in de nabije toekomst vrijwel voor iedereen toegankelijk zal zijn. Dit kan nieuwe perspectieven bieden in de moderne wereld van de interactie tussen de mens en de machine. Echter, tijdens de ontwikkeling van software worden punten als veiligheid en privacy nog niet als hoge prioriteiten gezien en daar schuilt een redelijk gevaar (Sundararajan, 2017). "
+            }, {
+                    "type": "paragraph",
+                    "value": "BCI gebaseerd op EEG is langzaam, is gevoelig voor geluid en behoeft training om het te kunnen gebruiken. Deze limitaties worden deels opgevangen door gebruik te maken van hybride BCI-technieken. Hybride BCI’s combineren verschillende invoersignalen. Bijvoorbeeld twee EEG-signalen of twee beeldende signalen, zoals EEG met functional Near-Infrared Spectroscopy (fNIRS). Een hersensignaal met een fysiologisch signaal zoals een hartslag of een hersensignaal met eye-tracking. Hier wordt veel onderzoek naar verricht om het gebruik van BCI sneller en gebruiksvriendelijker te maken."
+            }, {
+                    "type": "paragraph",
+                    "value": "EEG signalen variëren in tijd per persoon en er is een bepaalde drempelwaarde van het signaal nodig om een output te genereren. He et al. (2017) tonen aan dat door gebruik te maken van P300 samen met EEG en een aan/uit lichtknop, een drempelvrije switch kan worden gecreëerd voor het starten en stoppen van een elektrische rolstoel. "
+            }, {
+                    "type": "paragraph",
+                    "value": "Jochumsen, Shafique, Hassan, en Niazi (2018) hebben onderzocht of bewegingsintenties van kinderen met een hersenverlamming kunnen worden gedetecteerd met een single-trial EEG. Zij detecteerden bewegingen door middel van slechts één kanaal met een nauwkeurigheid van ~ 70%. Dit nam toe tot ~ 80% voor de Laplace gefilterde gegevens, terwijl ~ 75% van de gegevens correct waren geclassificeerd bij gebruik van negen kanalen. De resultaten geven aan dat het kan worden gebruikt bij de motorische revalidatie van patiënten met hersenverlamming."
+            }, {
+                    "type": "paragraph",
+                    "value": "In de Seventh International BCI Meeting gehouden op 21 mei 2018 worden de meest recente onderzoeken in abstract beschreven (http://bcisociety.org/wp-content/uploads/2018/05/BCI2018AbstractBook-final.pdf)."
+            }]
+        }, {
+            "type": "accordion",
+            "value": "4. Hoe bruikbaar is de interface?",
+            "children": [{
+                    "type": "paragraph",
+                    "value": "Voor sommige patiënten is communicatie door middel van BCI de enige optie om interactie te hebben met de omgeving, zoals bij het Locked-In syndroom. Voor ernstige neuromusculaire aandoeningen zoals tetraplegie en dwarslaesies is het een middel om zich te kunnen voortbewegen en zichzelf van eten en drinken te voorzien (He 2017 & Pfurtscheller 2003). Hiermee herwint een persoon (gedeeltelijk) zijn autonomie."
+            }, {
+                    "type": "paragraph",
+                    "value": "Haushalter (2018) onderzoekt of, met BCI verkregen, ja en nee antwoorden van mensen in vegetatieve toestand toegelaten kunnen worden in het rechtsysteem. Op dit moment komt zij tot de conclusie dat het bewijs wat verzameld is door deze neurowetenschap onwaarschijnlijk toelaatbaar is voor getuigenis in strafrechtelijke processen. Afhankelijk van de casus kan het gebruik ervan bij politieonderzoeken en voor het nemen van juridische beslissingen in de gezondheidszorg wel in overweging worden genomen. "
+            }, {
+                    "type": "paragraph",
+                    "value": "In 2016 ontwikkelde een groep hobbyisten een open-source BCI-bord dat neurale signalen naar de audio-aansluiting van een smartphone verzendt. Daarbij dalen de kosten voor BCI tot 20 pond (SmartphoneBCI, 2017) Standaard diagnostische software is momenteel beschikbaar voor Android-apparaten, evenals een tekstinvoer-app voor Unity."
+            }, {
+                    "type": "paragraph",
+                    "value": "Allison (2007) beschrijft dat 20% van de gebruikers er niet in slagen om middels hun hersenen invoer te bieden aan een apparaat. Dit fenomeen wordt ‘BCI illiteracy’ genoemd (Allison 2007,2010, Vidaurre 2010, Sannelli 2008 & Blankertz 2008). "
+            }, {
+                    "type": "paragraph",
+                    "value": "Studies tonen aan dat op het gebied van de P300 en de steady-state visual evoked potential (SSVEP) BCI’s voor een groot deel van de mensen werkt, maar niet voor iedereen. (Guger 2009,2012 , Allison 2010 & Kaufmann 2012). Hersengolfpatronen zijn inconsistent per persoon en over de tijd heen. Dit maakt het ingewikkeld om hersengolven te decoderen en uitgebreid training is nodig om een apparaat effectief te kunnen bedienen (Scherer 2012 & Lotte 2007). Diverse methoden worden ontwikkeld om BCI met P300 en/of SSVEP universeel te maken, zoals verbeteren van de training (Friedrich 2009 & McFarland 2008), instructies naar de eindgebruiker (Neuper 2005) en de signaalverwerking (Krusienski 2008)."
+            }, {
+                    "type": "paragraph",
+                    "value": "Meerdere onderzoekers hebben aangegeven dat met hybride BCI's een hogere nauwkeurigheid en Information Transfer Rate (ITR) kan worden behaald (Allison, Combaz en van Hulle 2015, Scherer 2012, Yin 2015 & Lim 2015). "
+            }, {
+                    "type": "paragraph",
+                    "value": "Park et al (2014) melden dat nauwkeurigheid van oogbewegingen gecombineerd met EEG-signaal een hogere nauwkeurigheid vertoonden dan die van de oogbewegingen en EEG-signaal alleen (respectievelijk 90,9%, 85,8% en 83,9%)."
+            }, {
+                    "type": "paragraph",
+                    "value": "Uit recent onderzoek van (Balasubramanian, Garcia-Cossio, Birbaumer, Burdet, & Ramos-Murguialday, 2018) blijkt dat 73% (N = 30) van de patiënten na ernstige beroerte een sterk elektrisch signaal in hun arm hebben als ze dit willen bewegen. Dit is een indicatie dat zij baat kunnen hebben bij een training die gebaseerd is op EMG in plaats van EEG, welke praktischer, compacter is en minder voorbereidingstijd heeft. EMG (ElektroMyoGrafie) is het meten van de elektrische activiteit van de spieren."
+            }, {
+                    "type": "paragraph",
+                    "value": "In een recent onderzoek (Bashford et al., 2018) blijkt dat voor corticale activiteit van een gedrag er een dissociatie is van de BCI signalen en waarmee het oorspronkelijk geassocieerd was. De studie toont aan dat een apparaat in beweging gezet kan worden door gelijktijdige BCI-controle en natuurlijke bewegingen."
+            }, {
+                    "type": "paragraph",
+                    "value": "De zevende Internationale Brain-Computer Interface Meeting meldt het volgende: BCI-onderzoek groeit en breidt zich uit in de breedte van zijn toepassingen, waardoor het zowel voor mensen met een lichamelijke beperking als voor het grote publiek mogelijkheden kan bieden. Indien de samenleving in grote getalen gebruik gaat maken van BCI zal de overheid zich bezig moeten gaan houden met de ethische kwesties. De volgende ethische kwesties spelen bij BCI een rol: "
+            }, {
+                "type": "ul",
+                "content": [ 
+                    `Informed consent verkrijgen bij patiënten met communicatie problemen`,
+                    `Risico-baat analyse`,
+                    `Bijwerkingen `,
+                    `Therapeutische versus experimentele onderzoeken`,
+                    `Privacy`,
+                    `Veiligheid`,
+                    `Toepassing bij ondervragingen bij overheidsinstanties`
+                ]
+            }]
+        }, {
+            "type": "accordion",
+            "value": "5. Wat zijn de gebruikerservaringen?",
+            "children": [{
+                    "type": "paragraph",
+                    "value": "Een systematische review van hybride BCI’s en de gebruikerservaringen is gepubliceerd in de PLOS one in 2017 door Choi, Rhiu, Lee, Yun en Nam. Zij beschrijven de gebruikerservaringen met de volgende kernbegrippen:"
+            }, {
+                "type": "ul",
+                "content": [
+                    `Efficiëntie: de mate waarin het product het mogelijk maakt de taken op een snelle en (kosten)effectieve manier uit te voeren.`,
+                    `Effectiviteit: de mate waarin gebruikers een bepaald doel in een gebruikersomgeving met nauwkeurigheid en volledigheid bereikt.`,
+                    `Tevredenheid: de mate waarin de gebruiker een product als prettige ervaart en geen problemen ondervindt in het bereiken van zijn doel.`
+                ]
+            }, {
+                "type": "img",
+                "src": "img/brain-11.png",
+                "caption": "Figuur 11 Een overzicht van de subjectieve en objectieve metingen van gebruikerservaringen"
+            }, {
+                    "type": "paragraph",
+                    "value": "Het gemiddelde aantal deelnemers van de 31 usability studies was 12.71, met een maximum van 39 en een minimum of 1. De meest gebruikte usability testen waren NASA-TLX en VAS. NASA-TLX is een populaire mentale werkbelasting beoordelingsmethode die wordt afgeleid van zes subschalen: mentale vraag, fysieke vraag, tijdsdruk, prestaties, inspanning en frustratie. VAS (Visual Analogue Scale) is een van de methoden om een 'gevoel' te beoordelen. Het wordt meestal uitgevoerd om de tevredenheid te beoordelen."
+            }, {
+                "type": "img",
+                "src": "img/brain-12.png",
+                "caption": "Figuur 12 De VAS score met in dit voorbeeld 0 zeer tevreden en 10 zeer ontevreden"
+            }, {
+                    "type": "paragraph",
+                    "value": "In het onderzoek van Ma (2015), waarbij visuele stimuli wordt gebruikt om hersensignalen op te roepen, rapporteerden de deelnemers oogvermoeidheid te ervaren en zich geïrriteerd te voelen. Motor imaging (MI) is onafhankelijk van de visuele stimulus, maar vertoont een lagere nauwkeurigheid en heeft een langere training nodig (Choi 2017). "
+            }, {
+                    "type": "paragraph",
+                    "value": "Aangezien hybride BCI-systemen meer sensoren vereisen om te worden aangesloten, kunnen gebruikers meer fysiek ongemak ervaren. Gel voor elektrodekapjes en een langere opstarttijd kunnen meer onaangename gevoelens veroorzaken en gebruikers irriteren (Ekandem 2012 & Kübler 2013)."
+            }, {
+                    "type": "paragraph",
+                    "value": "Metingen van bijvoorbeeld gebruiksgemak, leerbaarheid, bruikbaarheid, behulpzaamheid, enz. worden veelal beoordeeld tussen 5 en 7 op een VAS-score."
+            }, {
+                    "type": "paragraph",
+                    "value": "De nadelen die voornamelijk in de usability studies genoemd worden zijn:"
+            }, {
+                "type": "ul",
+                "content": [
+                    `Elektroden-gelkapje minder comfortabel`,
+                    `Lage effectiviteit`,
+                    `Hoge leercurve`,
+                    `Ingewikkelde apparatuur`,
+                    `Hoge kosten`,
+                    `Lage snelheid`,
+                    `Risico bij invasieve elektroden (zoals infectie, littekenweefsel, hersenbeschadiging)`
+                ]
+            }, {
+                    "type": "paragraph",
+                    "value": "Nijboer et al. (2015) vergeleek drie type headsets van een P300 applicatie voor de communicatie: Biosemi, Emotiv EPOC en de g.Sahara headset"
+            }, {
+                "type": "img",
+                "src": "img/brain-13.png",
+                "caption": "Figuur 13 Biosemi Hoogste nauwkeurigheid: 88.5% Meest comfortabel Systeem setup tijd: hoogste"
+            }, {
+                "type": "img",
+                "src": "img/brain-14.png",
+                "caption": "Figuur 14 Emotiv EPOC Hoogste nauwkeurigheid: 61.7% Minst comfortable Beste esthetiek Meest effectief"
+            }, {
+                "type": "img",
+                "src": "img/brain-15.png",
+                "caption": "Figuur 15 g.Sahara Hoogste nauwkeurigheid: 62.7% Meer comfortable"
+            }, {
+                    "type": "paragraph",
+                    "value": "Nijboer adviseert het gebruik van gel-headset, omdat deze een hogere nauwkeurigheid en efficiëntie bereikt. De headset op waterbasis en droge headset worden daarentegen als esthetischer en plezieriger ervaren."
+            }]
+        }, {
+            "type": "accordion",
+            "value": "6. Deelconclusie",
+            "children": [{
+                    "type": "paragraph",
+                    "value": "BCI technologie heeft geresulteerd in een verbetering van de kwaliteit van leven van mensen met een neuromusculaire aandoening. Individuen kunnen externe apparaten besturen zoals een robotische arm of rolstoel door middel van gedachte. Daarbij worden mensen met spraakproblemen geholpen met spelling software om hun gedachte om te zetten in woorden. In de toekomst zal de techniek steeds verbeteren voor communicatie en bewegingsapparaten. Echter, deze apparaten zijn in ontwikkelfase en de focus ligt meer in accuraatheid en snelheid dan veiligheid en privacy. "
+            }, {
+                    "type": "paragraph",
+                    "value": "Zeven jaar geleden was de toepassing van BCI voor commerciële doeleinden en gebruik voor de algemene bevolking toekomstmuziek. Hedendaags is dit reeds gerealiseerd, alhoewel het nog in de kinderschoenen staat."
+            }, {
+                    "type": "paragraph",
+                    "value": "Slechts enkele studies bewijzen met een laag aantal testpersonen de gebruikerservaringen en daarmee is het onduidelijk wat de gebruiksvriendelijkheid is voor de gehele populatie. De BCI-gemeenschap begint pas sinds kort te begrijpen hoe bepaalde aspecten van hybride BCI's kunnen worden ontwikkeld en gecontroleerd. Door de complexiteit van hybride BCI is testen van usability lastig gebleken."
+            }]
+        }, {
+            "type": "accordion",
+            "value": "7. Aanbevelingen",
+            "children": [{
+                    "type": "paragraph",
+                    "value": "Iedere twee jaar worden congressen georganiseerd door de BCI society met de laatste nieuwe ontwikkelingen op gebied van BCI. Dit is een interessante website om in de gaten te houden: http://bcisociety.org/ "
+            }, {
+                    "type": "paragraph",
+                    "value": "DARPA doet grote investeringen in vernieuwende technologieën voor de nationale veiligheid. Zij zijn groot op het gebied van BCI. Vandaar de aanbeveling om de volgende website te bezoeken: https://www.darpa.mil/program/our-research/darpa-and-the-brain-initiative"
+            }, {
+                    "type": "paragraph",
+                    "value": "De meeste onderzoeken uit de review van Choi et al. (2017) waren gericht op cognitieve werkbelasting en de snelheid van systemen. Zij bevelen aan om meer onderzoek te doen naar het verbeteren van maatwerk, compatibiliteit en schaalbaarheid van BCI-systemen. Tevens wensen zij meer usability testen op gebied van leerbaarheid, consistentie, voorspelbaarheid en aanpassingsvermogen. "
+            }, {
+                    "type": "paragraph",
+                    "value": "Voordat BCI wordt aangeboden aan de algemene bevolking is het belangrijk dat aspecten als veiligheid en privacy besproken worden door parlementariërs, politiefunctionarissen, wetenschappers, justitievertegenwoordigers, privacydeskundigen, advocaten, ontwikkelaars en andere experts. En dat de resultaten worden opgenomen in de wet voordat de apparaten worden uitgebracht op de markt. "
+            }]
+        }, {
+            "type": "accordion",
+            "value": "8. Bronvermelding",
+            "children": [{
+                "type": "ul",
+                "content": [
+                    `Allison BZ, Wolpaw EW, Wolpaw JR. Brain-computer interface systems: progress and prospects. Expert Rev Med Devices. Taylor & Francis; 2007; 4: 463–474. https://doi.org/10.1586/17434440.4.4. 463 PMID: 17605682`,
+                    `Allison BZ, Brunner C, Kaiser V, Müller-Putz GR, Neuper C, Pfurtscheller G. Toward a hybrid braincomputer interface based on imagined movement and visual attention. J Neural Eng. 2010; 7: 26007. https://doi.org/10.1088/1741-2560/7/2/026007 PMID: 20332550 `,
+                    `Ang, K. K, & Guan, C. (2013). Brain-Computer Interface in Stroke Rehabilitation. Journal of Computing Science and Engineering, 7(2), 139–146.`,
+                    `Balasubramanian, S., Garcia-Cossio, E., Birbaumer, N., Burdet, E., & Ramos-Murguialday, A. (2018). Is EMG a Viable Alternative to BCI for Detecting Movement Intention in Severe Stroke? IEEE Transactions on Biomedical Engineering, 65(12), 2790–2797. https://doi.org/10.1109/tbme.2018.2817688`,
+                    `Bashford, L., Wu, J., Sarma, D., Collins, K., Rao, R. P. N., Ojemann, J. G., & Mehring, C. (2018). Concurrent control of a brain-computer interface and natural overt movements.. J Neural Eng., 15(6). https://doi.org/10.1088/1741-2552/aadf3d`,
+                    `Beverina F, Palmas G, Silvoni S, Piccione F, Giove S (2003). "User adaptive BCIs: SSVEP and P300 based interfaces". PsychNol. J. 1: 331–54.`,
+                    `Blankertz B, Losch F, Krauledat M, Dornhege G, Curio G, Mu ¨ller K- R. The Berlin Brain—Computer Interface: accurate performance from first-session in BCI-naive subjects. IEEE Trans Biomed Eng. IEEE; 2008; 55: 2452–2462. https://doi.org/10.1109/TBME.2008.923152 PMID: 18838371`,
+                    `Casagrande, A., Jarmolowska, J., Turconi, M. M., Busan, P., Fabris, F., & Battaglini, P. P. (2017). PolyMorph: Increasing the Spelling Efficiency of P300 by Selection Matrix PolyMorphism and Sentence-Based Predictions. International Journal of Human–Computer Interaction, 34(12), 1085–1104. https://doi.org/10.1080/10447318.2017.1413791`,
+                    `Choi, I., Rhiu, I., Lee, Y., Yun, M. H., & Nam, C. S. (2017). A systematic review of hybrid brain-computer interfaces: Taxonomy and usability perspectives. PLOS ONE, 12(4), 1–35. https://doi.org/10.1371/journal.pone.0176674`,
+                    `Combaz A, Van Hulle MM. Simultaneous detection of P300 and steady-state visually evoked potentials for hybrid brain-computer interface. PLoS One. 2015/03/31. Public Library of Science; 2015; 10: e0121481. https://doi.org/10.1371/journal.pone.0121481 PMID: 25815815 `,
+                    `Ekandem JI, Davis T a., Alvarez I, James MT, Gilbert JE. Evaluating the ergonomics of BCI devices for research and experimentation. Ergonomics. 2012; 55: 592–598. https://doi.org/10.1080/00140139. 2012.662527 PMID: 22506831 `,
+                    `Friedrich EVC, McFarland DJ, Neuper C, Vaughan TM, Brunner P, Wolpaw JR. A scanning protocol for a sensorimotor rhythm-based brain-computer interface. Biol Psychol. 2009; 80: 169–175. https:// doi.org/10.1016/j.biopsycho.2008.08.004 PMID: 18786603`,
+                    `Guger C, Daban S, Sellers E, Holzner C, Krausz G, Carabalona R, et al. How many people are able to control a P300-based brain-computer interface (BCI)? Neurosci Lett. Elsevier; 2009; 462: 94–98. https://doi.org/10.1016/j.neulet.2009.06.045 PMID: 19545601`,
+                    `Guger C, Allison BZ, Großwindhager B, Pru ¨ckl R, Hintermüller C, Kapeller C, et al. How many people could use an SSVEP BCI? Front Neurosci. Frontiers; 2012; 6: 169. https://doi.org/10.3389/fnins.2012. 00169 PMID: 23181009`,
+                    `Haushalter, J. L. (2018). Neuronal Testimonial: Brain-Computer Interfaces and the Law. Vanderbilt Law Review, 71(4), 1365–1400.`,
+                    `He, S.; Zhang, R.; Wang, Q.; Chen, Y.; Yang, T.; Feng, Z.; Zhang, Y.; Shao, M.; Li, Y. A P300-based threshold-free brain switch and its application in wheelchair control. IEEE Trans. Neural Syst. Rehabil. Eng. 2017, 25, 715–725.`,
+                    `Jochumsen, M., Shafique, M., Hassan, A., & Niazi, I. K. (2018). Movement intention detection in adolescents with cerebral palsy from single-trial EEG.. J Neural Eng., 15(6). https://doi.org/10.1088/1741-2552/aae4b8.`,
+                    `Kaufmann T, Vo ¨lker S, Gunesch L, Ku ¨bler A. Spelling is just a click away—a user-centered brain-computer interface including auto-calibration and predictive text entry. Front Neurosci. Frontiers; 2012; 6: 72. https://doi.org/10.3389/fnins.2012.00072 PMID: 22833713`,
+                    `Kim BH, Kim M, Jo S. Quadcopter flight control using a low-cost hybrid interface with EEG-based classification and eye tracking. Comput Biol Med. Elsevier Ltd; 2014; 51: 82–92. https://doi.org/10.1016/j. compbiomed.2014.04.020 PMID: 24880998`,
+                    `Krusienski DJ, Sellers EW, McFarland DJ, Vaughan TM, Wolpaw JR. Toward enhanced P300 speller performance. J Neurosci Methods. 2008; 167: 15–21. https://doi.org/10.1016/j.jneumeth.2007.07.017 PMID: 17822777 `,
+                    `Kübler A, Zickler C, Holz E, Kaufmann T. Applying the user-centreddesign to evaluation of Brain-Computer Interface controlled applications. Biomedical. 2013 `,
+                    `Lee J.H., Ryu J., Jolesz F.A., Cho Z.H., Yoo S.S. Brain-machine interface via real-time fMRI: preliminary study on thought-controlled robotic arm. Neurosci Lett. 2009;450(1):1–6.`,
+                    `Lim J-H, Lee J-H, Hwang H-J, Kim DH, Im C-H. Development of a hybrid mental spelling system combining SSVEP-based brain–computer interface and webcam-based eye tracking. Biomed Signal Process Control. Elsevier Ltd; 2015; 21: 99–104.`,
+                    `Lotte F, Congedo M, Le ´cuyer A, Lamarche F, Arnaldi B. A review of classification algorithms for EEGbased brain-computer interfaces. J Neural Eng. IOP Publishing; 2007; 4: R1–R13. https://doi.org/10. 1088/1741-2560/4/2/R01 PMID: 17409472`,
+                    `McFarland DJ, Krusienski DJ, Sarnacki W a, Wolpaw JR. Emulation of computer mouse control with a noninvasive brain-computer interface. J Neural Eng. 2008; 5: 101–110. https://doi.org/10.1088/17412560/5/2/001 PMID: 18367779`,
+                    `Ma J, Zhang Y, Cichocki A, Matsuno F. A Novel EOG/EEG Hybrid Human-Machine Interface Adopting Eye Movements and ERPs: Application to Robot Control. Ieee Trans Biomed Eng. 2015; 62: 876–889. https://doi.org/10.1109/TBME.2014.2369483 PMID: 25398172`,
+                    `Miranda, R. (2015). DARPA-funded efforts in the development of novel brain–computer interface technologies. Journal of Neuroscience Methods, 244, 52–67.`,
+                    `Neuper C, Scherer R, Reiner M, Pfurtscheller G. Imagery of motor actions: Differential effects of kinesthetic and visual-motor mode of imagery in single-trial EEG. Cogn Brain Res. 2005; 25: 668–677.`,
+                    `Park U, Mallipeddi R, Lee M. Human implicit intent discrimination using EEG and eye movement. Lect Notes Comput Sci (including Subser Lect Notes Artif Intell Lect Notes Bioinformatics). Springer Verlag; 2014;v 8834: 11–18.`,
+                    `Pfurtscheller, G.; Müller, G. R.; Pfurtscheller, J. R.; Gerner, H. J. R.; Rupp, R. D. (2003). "'Thought' – control of functional electrical stimulation to restore hand grasp in a patient with tetraplegia". Neuroscience Letters. 351 (1): 33–36. doi:10.1016/S0304-3940(03)00947-9. PMID 14550907.`,
+                    `Sannelli C, Braun M, Tangermann M, Müller K-R. Estimating noise and dimensionality in BCI data sets: towards illiteracy comprehension. Citeseer; 2008. `,
+                    `Scherer R, Faller J, Balderas D, Friedrich EVCVC, Proell M, Allison B, et al. Brain–computer interfacing: more than the sum of its parts. Soft Comput. Springer Verlag; 2012; 17: 317–331.`,
+                    `Shih, J. J., Krusienski, D. J., & Wolpaw, J. R. (2012). Brain-Computer Interfaces in Medicine. Mayo Clinic Proceedings, 87(3), 268–279. https://doi.org/10.1016/j.mayocp.2011.12.008`,
+                    `SmartphoneBCI, Geraadpleeg van https://github.com/icibici/smartphone-bci-hardware/ op 12-12-2018`,
+                    `Sundararjan, K. (2017b). Privacy and security issues in brain computer interface. Geraadpleegd van https://aut.researchgateway.ac.nz/bitstream/handle/10292/11449/SundararajanK.pdf?sequence=4&isAllowed=y`,
+                    `Tressoldi, P. (2014). Mind-Matter Interaction at a Distance of 190 km: Effects on a Random Event Generator Using a Cutoff Method.. NeuroQuantology, 12(3), 337–343.`,
+                    `Vidaurre C, Blankertz B. Towards a cure for BCI illiteracy. Brain Topogr. Springer; 2010; 23: 194–198. https://doi.org/10.1007/s10548-009-0121-6 PMID: 19946737`,
+                    `Wolpaw JR, Birbaumer N, Heetderks WJ, McFarland DJ, Peckham PH, Schalk G, et al. Brain-computer interface technology: a review of the first international meeting. IEEE Trans Rehabil Eng. 2000; 8: 164–173. PMID: 10896178`,
+                    `Yin X, Xu B, Jiang C, Fu Y, Wang Z, Li H, et al. A hybrid BCI based on EEG and fNIRS signals improves the performance of decoding motor imagery of both force and speed of hand clenching. J Neural Eng. Institute of Physics Publishing; 2015; 12: 36004.`
+                ]
+            }]
         }]
     },
     "eyeTracking": {
