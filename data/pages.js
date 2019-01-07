@@ -30,7 +30,33 @@ var pages = {
                 "value": "BCI technologie heeft geresulteerd in een verbetering van de kwaliteit van leven van mensen met een neuromusculaire aandoening. Individuen kunnen externe apparaten besturen zoals een robotische arm of rolstoel door middel van gedachte. Mensen met spraakproblemen worden geholpen met spelling software om hun gedachte om te zetten in woorden. Echter, deze apparaten zijn in ontwikkelfase en de focus ligt meer in accuraatheid en snelheid dan veiligheid en privacy. De toepassing van BCI voor commerciële doeleinden en gebruik voor de algemene bevolking is geen toekomstmuziek meer, alhoewel het nog wel in de kinderschoenen staat."
         }]
     },
+    "introduction": {
+        "title": "Inleiding",
+        "content": [{
+                "type": "paragraph",
+                "value": "We gebruiken steeds meer elektronische apparaten in het dagelijks leven, maar een toetsenbord en muis zien we nog maar weinig. Hoe bedienen we tegenwoordig al deze apparaten dan?"
+        }, {
+                "type": "paragraph",
+                "value": "Steeds vaker maken we gebruik van Natural User Interfaces (NUI). Maar wat is het en hoe ervaren de gebruikers ze? Om deze vraag te beantwoorden is onderzoek gedaan naar de technieken en de usability. Met usability wordt beschreven hoe efficiënt en effectief de NUI is en hoe tevreden de gebruikers zijn. "
+        }, {
+                "type": "paragraph",
+                "value": "Er zijn Natural User Interfaces die al geïntegreerd zijn in ons dagelijks leven, zoals voice control in navigatiesystemen en touch interface op tablets en mobiele telefoons. Andere NUI’s zijn minder verweven in het alledaags gebruik, zoals gaze control, gebarenherkenning en brain computer interfaces."
+        }, {
+                "type": "paragraph",
+                "value": "Om inzicht te geven in de stand van zaken omtrent de actuele technologieën is descriptief onderzoek gedaan naar de laatste ontwikkelingen. Wat zijn de belangrijkste begrippen, theorieën en modellen die met NUI te maken hebben. Daarnaast is een evaluerend onderzoek gedaan naar de ervaringen van gebruikers van deze NUI’s om de usability te toetsen. "
+        }, {
+                "type": "paragraph",
+                "value": "De resultaten worden gepresenteerd op een interessante en interactieve manier: klik op NUI’s brein, ogen, handen en mond en ontdek de resultaten door te klikken op de onderzoeksvragen."
+        }]
+    },
     "goal": {
+        "title": "Doelstelling",
+        "content": [{
+                "type": "paragraph",
+                "value": "Het doel van dit onderzoek is om derdejaars informatica studenten een overzicht te geven van de huidige technische stand van zaken en gebruiksvriendelijkheid van de natural user interfaces speech, voice, gesture, gaze control en brain control, in 2018 om zodoende een vergelijking te kunnen maken met de opkomende technologieën in 2019."
+        }]
+    },
+    "mainQuestion": {
         "title": "Hoofdvraag",
         "content": [{
             "type": "paragraph",
@@ -47,6 +73,16 @@ var pages = {
                 `Hoe bruikbaar is de interface?`,
                 `Wat zijn de gebruikerservaringen?`
             ]
+        }]
+    },
+    "researchMethod": {
+        "title": "Onderzoeksmethode",
+        "content": [{
+                "type": "paragraph",
+                "value": "De data voor dit onderzoek zijn verzameld door middel van een literatuuronderzoek. De bronnen voor dit literatuuronderzoek zijn gezocht in de Academic Search Complete, een multidisciplinair database van wetenschappelijke tijdschriften, en Gartner Higher Education, een informatietechnologie onderzoek- en adviesfirma die inzicht in technologische ontwikkelingen geeft."
+        }, {
+                "type": "paragraph",
+                "value": "Er is een selectie gemaakt van de laatste ontwikkelingen van de betreffende interfaces. Van technologieën die al langer worden gebruikt, worden de meest recente ontwikkelingen beschreven. Bij voorkeur wordt gekeken naar de wetenschappelijke of vakinhoudelijke bronnen met betrekking tot usability. Andere publicaties zoals facebook, blog’s etc worden niet geïncludeerd."
         }]
     },
     "conclusion": {
@@ -183,7 +219,7 @@ var pages = {
     },
     "brain": {
         "title": "Brain",
-        "heroImage": "",
+        "heroImage": "img/brain.png",
         "content": [{
                 "type": "paragraph",
                 "value": "Brain-computer interface (BCI) is een opkomende technologie, waarbij het menselijk brein in directe communicatie staat met zijn omgeving. Hersengolven dienen als input voor het aansturen van externe apparaten (Wolpaw, 2000). De hersengolven worden gemeten met een electroencephalogram, oftewel EEG. Een EEG is een elektrofysiologische methode, waarbij hersenactiviteit elektrisch wordt gemeten. Het is meestal niet-invasief, waarbij de elektroden langs de hoofdhuid zijn geplaatst, hoewel soms invasieve elektroden worden gebruikt, zoals bij elektrocorticografie."
@@ -555,7 +591,7 @@ var pages = {
     },
     "eyeTracking": {
         "title": "Eye-tracking",
-        "heroImage": "",
+        "heroImage": "img/eye.jpg",
         "content": [{
             "type": "paragraph",
             "value": "Eye tracking is het meten van de positie van de ogen of het meten van de beweging van de ogen relatief ten opzichte van het hoofd. Uit de data die het volgen van de ogen oplevert kunnen veel meetgegevens worden gehaald. Deze meetgegevens kunnen gebruikt worden als hulpmiddel bij het testen van de gebruiksvriendelijkheid van een interface maar ook voor het aansturen van software. Dit laatste noemen we Gaze control (Poole & Ball, 2006)."
@@ -739,7 +775,7 @@ var pages = {
     },
     "voiceControl": {
         "title": "Voice control",
-        "heroImage": "",
+        "heroImage": "img/voice.jpg",
         "content": [{
             "type": "paragraph",
             "value": "Een spraakbesturingssysteem, of voice control device (VCD), stelt een gebruiker in staat een apparaat te besturen via spraakopdrachten. Het spraakbesturingssysteem omvat een spraakherkenning eenheid (voice of speech recognition) die een besturingssignaal ontvangt door een microfoon en een spraaksignaal van een gebruiker. Deze signalen worden omgezet in tekst of opdrachten die uitgevoerd kunnen worden door het systeem."
@@ -960,7 +996,7 @@ var pages = {
     },
     "gestures": {
         "title": "Gestures",
-        "heroImage": "",
+        "heroImage": "img/gestures.jpg",
         "content": [{
             "type": "paragraph",
             "value": "In de volgende video wordt uitgelegd wat gebarenherkenning is en voor welke toepassingen het eventueel gebruikt zou kunnen worden."
@@ -1144,7 +1180,7 @@ var pages = {
     },
     "touchscreen": {
         "title": "Touchscreen",
-        "heroImage": "https://www.engineersgarage.com/sites/default/files/wysiwyg_imageupload/1/Pictorial-Representation-of-Touch-Screen-Technology.jpg",
+        "heroImage": "img/touch.jpg",
         "content": [{
             "type": "paragraph",
             "value": "Touch interfacing is het besturen van software aan de hand van een aanraakgevoelig scherm. Hedendaags is dit de norm geworden met de komst van apparaten zoals de smartphone, de tablet en ook smartwatches beginnen op te komen."
