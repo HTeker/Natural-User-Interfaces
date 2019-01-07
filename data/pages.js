@@ -1,7 +1,34 @@
 var pages = {
     "summary": {
         "title": "Samenvatting",
-        "content": []
+        "content": [{
+                "type": "paragraph",
+                "value": "Dit rapport is een opeenvolging van onderzoeken van verschillende Natural User Interfaces (NUI) en de gebruikerservaringen. De beschreven NUI’s zijn speech, voice, gesture, gaze en brain user interfaces. "
+        }, {
+                "type": "paragraph",
+                "value": "In het rapport staat de volgende vraag centraal:"
+        }, {
+                "type": "paragraph",
+                "value": "Hoe gebruiksvriendelijk zijn de speech, voice, gesture, gaze en brain user interfaces in 2018?"
+        }, {
+                "type": "paragraph",
+                "value": "Het doel van dit rapport is om de derdejaars informatica studenten inzicht te geven in de huidige stand van technologie van de beschreven NUI’s en hoe de gebruikerservaringen zijn, als introductie op het vak advanced usability. "
+        }, {
+                "type": "paragraph",
+                "value": "Momenteel wordt spraakbesturing steeds vaker gebruikt voor het uitvoeren van zoekopdrachten op mobiele apparaten. Doordat het tegenwoordig geïntegreerd is in de besturingssystemen van deze apparaten, is het voor alle gebruikers toegankelijk. De huidige technologie is zodanig goed dat het de mens evenaart in accuraatheid bij het herkennen van woorden. Steeds vaker verkiezen mensen zoekopdrachten in te spreken boven het gebruik van een onscreen toetsenbord."
+        }, {
+                "type": "paragraph",
+                "value": "Gaze control is de laatste jaren sterk ontwikkeld en goedkoper geworden. Het is toepasbaar op alle apparaten die een camera en infrarood licht hebben en is geschikt voor veel gebruikersgroepen. Het aanwijzen van een object op het scherm is met eye tracking sneller dan met een traditionele muis, zeker bij oudere gebruikers. De beperkingen bij eye tracking zijn het dragen van bepaalde type lenzen, bepaalde type brillenglazen, moeilijk zichtbare pupillen en bij een lui oog. Onderzoeken geven aan dat gaze control wordt ervaren als een goed alternatief voor traditionele invoerapparaten, makkelijke te leren is en leuk om te gebruiken."
+        }, {
+                "type": "paragraph",
+                "value": "Touchscreens zijn over het algemeen zeer makkelijk te gebruiken dat zelfs heel jonge kinderen ermee overweg kunnen. Zolang de interface simpel is ontworpen kan iedereen er goed gebruik van maken. In vergelijking met traditionele user interfaces zoals de muis en keyboard is touch interfacing erg compact en simpel mee te nemen. "
+        }, {
+                "type": "paragraph",
+                "value": "Door meerdere camera’s, infrarood sensoren en goede software kan er een goed beeld worden gecreëerd van handgebaren en kan er goed worden geregistreerd wat de gebruiker voor bewegingen maakt. Indien de interfaces speciaal gemaakt zijn voor gebarenherkenning wordt het in de meeste gevallen ervaren als prettig. Echter, gebarenherkenning kan niet alle functies van een muis en toetsenbord vervangen. "
+        }, {
+                "type": "paragraph",
+                "value": "BCI technologie heeft geresulteerd in een verbetering van de kwaliteit van leven van mensen met een neuromusculaire aandoening. Individuen kunnen externe apparaten besturen zoals een robotische arm of rolstoel door middel van gedachte. Mensen met spraakproblemen worden geholpen met spelling software om hun gedachte om te zetten in woorden. Echter, deze apparaten zijn in ontwikkelfase en de focus ligt meer in accuraatheid en snelheid dan veiligheid en privacy. De toepassing van BCI voor commerciële doeleinden en gebruik voor de algemene bevolking is geen toekomstmuziek meer, alhoewel het nog wel in de kinderschoenen staat."
+        }]
     },
     "goal": {
         "title": "Hoofdvraag",
